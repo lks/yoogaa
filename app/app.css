@@ -53,3 +53,7 @@ button {
     background-color: #411D6B;
     border-color: #6E1D6B;
 }
+
+.ace_editor  {
+    height : 200px;
+}

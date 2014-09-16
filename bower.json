@@ -14,6 +14,7 @@
     "bootstrap": "3.1.x",
     "angular-ui-bootstrap":"0.11.x",
     "jquery":"1.11.x",
-    "ace": "*"
+    "ace": "*",
+    "angular-ui-ace": "#bower"
   }
 }
