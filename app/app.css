@@ -26,6 +26,8 @@ h1 {
 
 .panel {
     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 #editor {
@@ -34,4 +36,20 @@ h1 {
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.btn{
+    color: #fff;
+    background-color: #6E1D6B;
+    border-color: #6E1D6B;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #411D6B;
+    border-color: #6E1D6B;
 }
