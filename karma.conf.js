@@ -46,8 +46,9 @@ module.exports = function(config){
 
     // optionally, configure the reporter
     coverageReporter: {
-      type : 'html',
-      dir : 'reports/coverage/'
+      type : 'cobertura',
+      dir : 'reports/coverage/',
+      file : 'coverage.xml'
     }
 
   });
