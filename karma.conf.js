@@ -18,9 +18,13 @@ module.exports = function(config){
     browsers : ['PhantomJS'],
 
     plugins : [
-            'karma-phantomjs-launcher',
-            'karma-coverage',
-            'karma-junit-reporter'
+      'karma-chai',
+      'karma-chai-sinon',
+      'karma-phantomjs-launcher',
+      'karma-mocha',
+      'karma-coverage',
+      'karma-junit-reporter',
+      'karma-sinon'
             ],
 
     junitReporter : {
