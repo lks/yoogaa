@@ -27,9 +27,23 @@ module.exports = function(config){
       'karma-sinon'
             ],
 
+    preprocessors: {
+      // source files, that you wanna generate coverage for
+      // do not include tests or libraries
+      // (these files will be instrumented by Istanbul)
+      'app/core/**/!(*_test)+(.js)': 'coverage',
+      'app/components/**/!(*_test)+(.js)': 'coverage'
+    },
+
     junitReporter : {
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
+    },
+
+    // optionally, configure the reporter
+    coverageReporter: {
+      type : 'xml',
+      dir : 'reports/coverage/'
     }
 
   });
