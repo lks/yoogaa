@@ -6,6 +6,9 @@
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
   "devDependencies": {
+    "chai-as-promised": "^4.1.1",
+    "phantomjs": "^1.9.7",
+    "cucumber": "^0.4.2",
     "karma": "^0.12.23",
     "protractor": "^1.1.1",
     "http-server": "^0.6.1",
