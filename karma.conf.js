@@ -12,7 +12,7 @@ module.exports = function(config){
     ],
 
     // coverage reporter generates the coverage
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress', 'coverage', 'dots', 'junit'],
 
     autoWatch : true,
 
