@@ -11,6 +11,9 @@ module.exports = function(config){
       'app/view*/**/*.js'
     ],
 
+    // coverage reporter generates the coverage
+    reporters: ['progress', 'coverage'],
+
     autoWatch : true,
 
     frameworks: ['mocha','chai', 'sinon', 'chai-sinon'],
