@@ -42,7 +42,7 @@ module.exports = function(config){
 
     // optionally, configure the reporter
     coverageReporter: {
-      type : 'xml',
+      type : 'html',
       dir : 'reports/coverage/'
     }
 
